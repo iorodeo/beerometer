@@ -22,6 +22,7 @@ param = {
         'maxCutDepth' : 0.04,
         'startDwell'  : 2.0,
         'startCond'   : 'minX',
+        'maxArcLen'   : 1.0e-3,
         }
 boundary = cnc_dxf.DxfBoundary(param)
 prog.add(boundary)

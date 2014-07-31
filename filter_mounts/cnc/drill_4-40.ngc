@@ -14,7 +14,7 @@ F 22.0
 ; ------------------------------------------------------------
 ; layers: ['4-40 tap holes']
 ; startZ: 0.02
-; stopZ: -0.65
+; stopZ: -0.6
 ; startDwell: 2.0
 ; fileName: filter_mount.dxf
 ; safeZ: 0.25
@@ -34,7 +34,7 @@ G4 P2.0
 
 ; PeckDrill: move to start z
 G1 Z0.02000000
-G83 X1.7000003 Y0.900155 Z-0.65 R0.02 Q0.05
+G83 X1.7000003 Y0.900155 Z-0.6 R0.02 Q0.05
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.25000000
@@ -47,7 +47,7 @@ G0 Z0.25000000
 ; ------------------------------------------------------------
 ; layers: ['4-40 tap holes']
 ; startZ: 0.02
-; stopZ: -0.65
+; stopZ: -0.6
 ; startDwell: 2.0
 ; fileName: filter_mount.dxf
 ; safeZ: 0.25
@@ -67,7 +67,7 @@ G4 P2.0
 
 ; PeckDrill: move to start z
 G1 Z0.02000000
-G83 X1.699963 Y0.100116 Z-0.65 R0.02 Q0.05
+G83 X1.699963 Y0.100116 Z-0.6 R0.02 Q0.05
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.25000000
@@ -80,7 +80,7 @@ G0 Z0.25000000
 ; ------------------------------------------------------------
 ; layers: ['4-40 tap holes']
 ; startZ: 0.02
-; stopZ: -0.65
+; stopZ: -0.6
 ; startDwell: 2.0
 ; fileName: filter_mount.dxf
 ; safeZ: 0.25
@@ -100,7 +100,7 @@ G4 P2.0
 
 ; PeckDrill: move to start z
 G1 Z0.02000000
-G83 X0.09997 Y0.900171 Z-0.65 R0.02 Q0.05
+G83 X0.09997 Y0.900171 Z-0.6 R0.02 Q0.05
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.25000000
@@ -113,7 +113,7 @@ G0 Z0.25000000
 ; ------------------------------------------------------------
 ; layers: ['4-40 tap holes']
 ; startZ: 0.02
-; stopZ: -0.65
+; stopZ: -0.6
 ; startDwell: 2.0
 ; fileName: filter_mount.dxf
 ; safeZ: 0.25
@@ -133,7 +133,7 @@ G4 P2.0
 
 ; PeckDrill: move to start z
 G1 Z0.02000000
-G83 X0.09997 Y0.100105 Z-0.65 R0.02 Q0.05
+G83 X0.09997 Y0.100105 Z-0.6 R0.02 Q0.05
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.25000000
