@@ -6,3 +6,9 @@ Order of machining operations:
 3.) pocket
 4.) screw down part for cutout
 5.) boundary
+
+
+Licenses:
+
+1.) python files LICENSE_APACHE
+2.) dxf files LICENSE_CC
