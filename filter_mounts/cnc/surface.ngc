@@ -15,6 +15,7 @@ F 24.0
 ; startZ: 0.0
 ; layers: ['surface mill']
 ; direction: ccw
+; centerX: 0.95
 ; overlapFinish: 0.5
 ; startDwell: 2.0
 ; safeZ: 0.25
@@ -24,8 +25,9 @@ F 24.0
 ; width: 2.9
 ; depth: 0.08
 ; dxfTypes: ['LINE', 'POINT']
-; centerX: 0.95
+; components: True
 ; centerY: 0.8
+; ptEquivTol: 1e-05
 ; height: 2.4
 ; toolDiam: 0.5
 ; overlap: 0.4

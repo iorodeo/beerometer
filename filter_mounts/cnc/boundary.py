@@ -8,6 +8,7 @@ prog = gcode_cmd.GCodeProg()
 prog.add(gcode_cmd.GenericStart())
 prog.add(gcode_cmd.Space())
 prog.add(gcode_cmd.FeedRate(feedrate))
+prog.add(gcode_cmd.PathBlendMode(P=0.01))
 
 
 param = {
@@ -22,10 +23,12 @@ param = {
         'maxCutDepth' : 0.04,
         'startDwell'  : 2.0,
         'startCond'   : 'minX',
-        'maxArcLen'   : 1.0e-3,
+        'maxArcLen'   : 1.0e-2,
         }
 boundary = cnc_dxf.DxfBoundary(param)
 prog.add(boundary)
+
+prog.add(gcode_cmd.ExactPathMode())
 
 prog.add(gcode_cmd.Space())
 prog.add(gcode_cmd.End(),comment=True)
