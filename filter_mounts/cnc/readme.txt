@@ -1,3 +1,9 @@
+
+Notes:
+
+* For stock thickness (particularly if changing) see comments in surface.py  
+
+
 Order of machining operations:
 
 0.) surface

@@ -1,6 +1,19 @@
+"""
+Notes: 
+
+ May want to modifiy so that different stock thicknesses can be accomodated.
+ The current assumptions are.
+
+ Stock thickness 0.63" 
+ Final part thickness 0.55"
+
+"""
 import os 
 from py2gcode import gcode_cmd
 from py2gcode import cnc_dxf
+
+
+
 
 feedrate = 24.0
 
