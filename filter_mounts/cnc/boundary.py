@@ -12,7 +12,7 @@ prog.add(gcode_cmd.PathBlendMode(P=0.01))
 
 
 param = {
-        'fileName'    : 'filter_mount.dxf',
+        'fileName'    : 'filter_mount_array.dxf',
         'layers'      : ['boundary'],
         'depth'       : 0.6,
         'startZ'      : 0.0,

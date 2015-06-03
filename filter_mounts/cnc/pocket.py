@@ -5,7 +5,7 @@ from py2gcode import cnc_dxf
 feedrate = 22.0
 safeZ = 0.25
 toolDiam = 3.0/16.0
-fileName = 'filter_mount.dxf'
+fileName = 'filter_mount_array.dxf'
 overlap = 0.5
 overlapFinish = 0.6
 maxCutDepth = 0.04

@@ -10,7 +10,7 @@ prog.add(gcode_cmd.Space())
 prog.add(gcode_cmd.FeedRate(feedrate))
 
 param = { 
-        'fileName'    : 'filter_mount.dxf',
+        'fileName'    : 'filter_mount_array.dxf',
         'layers'      : ['4-40 tap holes'],
         'dxfTypes'    : ['CIRCLE'],
         'startZ'      : 0.02,

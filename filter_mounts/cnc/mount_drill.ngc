@@ -17,25 +17,25 @@ F 22.0
 ; startCond: minX
 ; stopZ: -0.6
 ; startDwell: 2.0
-; fileName: filter_mount.dxf
+; fileName: filter_mount_array.dxf
 ; safeZ: 0.25
 ; dxfTypes: ['CIRCLE']
-; centerX: 1.5
-; centerY: 0.49
+; centerX: -4.0
+; centerY: -0.01
 ; stepZ: 0.05
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.25000000
 
 ; PeckDrill: rapid move to drill x,y
-G0 X1.50000000 Y0.49000000
+G0 X-4.00000000 Y-0.01000000
 
 ; PeckDrill: dwell
 G4 P2.0
 
 ; PeckDrill: move to start z
 G1 Z0.02000000
-G83 X1.5 Y0.49 Z-0.6 R0.02 Q0.05
+G83 X-4.0 Y-0.01 Z-0.6 R0.02 Q0.05
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.25000000
@@ -51,25 +51,297 @@ G0 Z0.25000000
 ; startCond: minX
 ; stopZ: -0.6
 ; startDwell: 2.0
-; fileName: filter_mount.dxf
+; fileName: filter_mount_array.dxf
 ; safeZ: 0.25
 ; dxfTypes: ['CIRCLE']
-; centerX: 0.56
-; centerY: 0.2
+; centerX: -4.94
+; centerY: -0.3
 ; stepZ: 0.05
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.25000000
 
 ; PeckDrill: rapid move to drill x,y
-G0 X0.56000000 Y0.20000000
+G0 X-4.94000000 Y-0.30000000
 
 ; PeckDrill: dwell
 G4 P2.0
 
 ; PeckDrill: move to start z
 G1 Z0.02000000
-G83 X0.56 Y0.2 Z-0.6 R0.02 Q0.05
+G83 X-4.94 Y-0.3 Z-0.6 R0.02 Q0.05
+
+; PeckDrill: rapid move to safe z
+G0 Z0.25000000
+
+; End PeckDrill
+; ------------------------------------------------------------
+
+
+; Begin PeckDrill
+; ------------------------------------------------------------
+; layers: ['mount drill']
+; startZ: 0.02
+; startCond: minX
+; stopZ: -0.6
+; startDwell: 2.0
+; fileName: filter_mount_array.dxf
+; safeZ: 0.25
+; dxfTypes: ['CIRCLE']
+; centerX: -1.7
+; centerY: -0.01
+; stepZ: 0.05
+
+; PeckDrill: rapid move to safe z
+G0 Z0.25000000
+
+; PeckDrill: rapid move to drill x,y
+G0 X-1.70000000 Y-0.01000000
+
+; PeckDrill: dwell
+G4 P2.0
+
+; PeckDrill: move to start z
+G1 Z0.02000000
+G83 X-1.7 Y-0.01 Z-0.6 R0.02 Q0.05
+
+; PeckDrill: rapid move to safe z
+G0 Z0.25000000
+
+; End PeckDrill
+; ------------------------------------------------------------
+
+
+; Begin PeckDrill
+; ------------------------------------------------------------
+; layers: ['mount drill']
+; startZ: 0.02
+; startCond: minX
+; stopZ: -0.6
+; startDwell: 2.0
+; fileName: filter_mount_array.dxf
+; safeZ: 0.25
+; dxfTypes: ['CIRCLE']
+; centerX: -2.64
+; centerY: -0.3
+; stepZ: 0.05
+
+; PeckDrill: rapid move to safe z
+G0 Z0.25000000
+
+; PeckDrill: rapid move to drill x,y
+G0 X-2.64000000 Y-0.30000000
+
+; PeckDrill: dwell
+G4 P2.0
+
+; PeckDrill: move to start z
+G1 Z0.02000000
+G83 X-2.64 Y-0.3 Z-0.6 R0.02 Q0.05
+
+; PeckDrill: rapid move to safe z
+G0 Z0.25000000
+
+; End PeckDrill
+; ------------------------------------------------------------
+
+
+; Begin PeckDrill
+; ------------------------------------------------------------
+; layers: ['mount drill']
+; startZ: 0.02
+; startCond: minX
+; stopZ: -0.6
+; startDwell: 2.0
+; fileName: filter_mount_array.dxf
+; safeZ: 0.25
+; dxfTypes: ['CIRCLE']
+; centerX: 0.6
+; centerY: -0.01
+; stepZ: 0.05
+
+; PeckDrill: rapid move to safe z
+G0 Z0.25000000
+
+; PeckDrill: rapid move to drill x,y
+G0 X0.60000000 Y-0.01000000
+
+; PeckDrill: dwell
+G4 P2.0
+
+; PeckDrill: move to start z
+G1 Z0.02000000
+G83 X0.6 Y-0.01 Z-0.6 R0.02 Q0.05
+
+; PeckDrill: rapid move to safe z
+G0 Z0.25000000
+
+; End PeckDrill
+; ------------------------------------------------------------
+
+
+; Begin PeckDrill
+; ------------------------------------------------------------
+; layers: ['mount drill']
+; startZ: 0.02
+; startCond: minX
+; stopZ: -0.6
+; startDwell: 2.0
+; fileName: filter_mount_array.dxf
+; safeZ: 0.25
+; dxfTypes: ['CIRCLE']
+; centerX: -0.34
+; centerY: -0.3
+; stepZ: 0.05
+
+; PeckDrill: rapid move to safe z
+G0 Z0.25000000
+
+; PeckDrill: rapid move to drill x,y
+G0 X-0.34000000 Y-0.30000000
+
+; PeckDrill: dwell
+G4 P2.0
+
+; PeckDrill: move to start z
+G1 Z0.02000000
+G83 X-0.34 Y-0.3 Z-0.6 R0.02 Q0.05
+
+; PeckDrill: rapid move to safe z
+G0 Z0.25000000
+
+; End PeckDrill
+; ------------------------------------------------------------
+
+
+; Begin PeckDrill
+; ------------------------------------------------------------
+; layers: ['mount drill']
+; startZ: 0.02
+; startCond: minX
+; stopZ: -0.6
+; startDwell: 2.0
+; fileName: filter_mount_array.dxf
+; safeZ: 0.25
+; dxfTypes: ['CIRCLE']
+; centerX: 2.9
+; centerY: -0.01
+; stepZ: 0.05
+
+; PeckDrill: rapid move to safe z
+G0 Z0.25000000
+
+; PeckDrill: rapid move to drill x,y
+G0 X2.90000000 Y-0.01000000
+
+; PeckDrill: dwell
+G4 P2.0
+
+; PeckDrill: move to start z
+G1 Z0.02000000
+G83 X2.9 Y-0.01 Z-0.6 R0.02 Q0.05
+
+; PeckDrill: rapid move to safe z
+G0 Z0.25000000
+
+; End PeckDrill
+; ------------------------------------------------------------
+
+
+; Begin PeckDrill
+; ------------------------------------------------------------
+; layers: ['mount drill']
+; startZ: 0.02
+; startCond: minX
+; stopZ: -0.6
+; startDwell: 2.0
+; fileName: filter_mount_array.dxf
+; safeZ: 0.25
+; dxfTypes: ['CIRCLE']
+; centerX: 1.96
+; centerY: -0.3
+; stepZ: 0.05
+
+; PeckDrill: rapid move to safe z
+G0 Z0.25000000
+
+; PeckDrill: rapid move to drill x,y
+G0 X1.96000000 Y-0.30000000
+
+; PeckDrill: dwell
+G4 P2.0
+
+; PeckDrill: move to start z
+G1 Z0.02000000
+G83 X1.96 Y-0.3 Z-0.6 R0.02 Q0.05
+
+; PeckDrill: rapid move to safe z
+G0 Z0.25000000
+
+; End PeckDrill
+; ------------------------------------------------------------
+
+
+; Begin PeckDrill
+; ------------------------------------------------------------
+; layers: ['mount drill']
+; startZ: 0.02
+; startCond: minX
+; stopZ: -0.6
+; startDwell: 2.0
+; fileName: filter_mount_array.dxf
+; safeZ: 0.25
+; dxfTypes: ['CIRCLE']
+; centerX: 5.2
+; centerY: -0.01
+; stepZ: 0.05
+
+; PeckDrill: rapid move to safe z
+G0 Z0.25000000
+
+; PeckDrill: rapid move to drill x,y
+G0 X5.20000000 Y-0.01000000
+
+; PeckDrill: dwell
+G4 P2.0
+
+; PeckDrill: move to start z
+G1 Z0.02000000
+G83 X5.2 Y-0.01 Z-0.6 R0.02 Q0.05
+
+; PeckDrill: rapid move to safe z
+G0 Z0.25000000
+
+; End PeckDrill
+; ------------------------------------------------------------
+
+
+; Begin PeckDrill
+; ------------------------------------------------------------
+; layers: ['mount drill']
+; startZ: 0.02
+; startCond: minX
+; stopZ: -0.6
+; startDwell: 2.0
+; fileName: filter_mount_array.dxf
+; safeZ: 0.25
+; dxfTypes: ['CIRCLE']
+; centerX: 4.26
+; centerY: -0.3
+; stepZ: 0.05
+
+; PeckDrill: rapid move to safe z
+G0 Z0.25000000
+
+; PeckDrill: rapid move to drill x,y
+G0 X4.26000000 Y-0.30000000
+
+; PeckDrill: dwell
+G4 P2.0
+
+; PeckDrill: move to start z
+G1 Z0.02000000
+G83 X4.26 Y-0.3 Z-0.6 R0.02 Q0.05
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.25000000

@@ -17,25 +17,25 @@ F 22.0
 ; startCond: minX
 ; stopZ: -0.6
 ; startDwell: 2.0
-; fileName: filter_mount.dxf
+; fileName: filter_mount_array.dxf
 ; safeZ: 0.25
 ; dxfTypes: ['CIRCLE']
-; centerX: 1.7000003
-; centerY: 0.900155
+; centerX: -3.7999997
+; centerY: 0.400155
 ; stepZ: 0.05
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.25000000
 
 ; PeckDrill: rapid move to drill x,y
-G0 X1.70000030 Y0.90015500
+G0 X-3.79999970 Y0.40015500
 
 ; PeckDrill: dwell
 G4 P2.0
 
 ; PeckDrill: move to start z
 G1 Z0.02000000
-G83 X1.7000003 Y0.900155 Z-0.6 R0.02 Q0.05
+G83 X-3.7999997 Y0.400155 Z-0.6 R0.02 Q0.05
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.25000000
@@ -51,25 +51,25 @@ G0 Z0.25000000
 ; startCond: minX
 ; stopZ: -0.6
 ; startDwell: 2.0
-; fileName: filter_mount.dxf
+; fileName: filter_mount_array.dxf
 ; safeZ: 0.25
 ; dxfTypes: ['CIRCLE']
-; centerX: 1.699963
-; centerY: 0.100116
+; centerX: -3.800037
+; centerY: -0.399884
 ; stepZ: 0.05
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.25000000
 
 ; PeckDrill: rapid move to drill x,y
-G0 X1.69996300 Y0.10011600
+G0 X-3.80003700 Y-0.39988400
 
 ; PeckDrill: dwell
 G4 P2.0
 
 ; PeckDrill: move to start z
 G1 Z0.02000000
-G83 X1.699963 Y0.100116 Z-0.6 R0.02 Q0.05
+G83 X-3.800037 Y-0.399884 Z-0.6 R0.02 Q0.05
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.25000000
@@ -85,25 +85,25 @@ G0 Z0.25000000
 ; startCond: minX
 ; stopZ: -0.6
 ; startDwell: 2.0
-; fileName: filter_mount.dxf
+; fileName: filter_mount_array.dxf
 ; safeZ: 0.25
 ; dxfTypes: ['CIRCLE']
-; centerX: 0.09997
-; centerY: 0.900171
+; centerX: -5.40003
+; centerY: 0.400171
 ; stepZ: 0.05
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.25000000
 
 ; PeckDrill: rapid move to drill x,y
-G0 X0.09997000 Y0.90017100
+G0 X-5.40003000 Y0.40017100
 
 ; PeckDrill: dwell
 G4 P2.0
 
 ; PeckDrill: move to start z
 G1 Z0.02000000
-G83 X0.09997 Y0.900171 Z-0.6 R0.02 Q0.05
+G83 X-5.40003 Y0.400171 Z-0.6 R0.02 Q0.05
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.25000000
@@ -119,25 +119,569 @@ G0 Z0.25000000
 ; startCond: minX
 ; stopZ: -0.6
 ; startDwell: 2.0
-; fileName: filter_mount.dxf
+; fileName: filter_mount_array.dxf
 ; safeZ: 0.25
 ; dxfTypes: ['CIRCLE']
-; centerX: 0.09997
-; centerY: 0.100105
+; centerX: -5.40003
+; centerY: -0.399895
 ; stepZ: 0.05
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.25000000
 
 ; PeckDrill: rapid move to drill x,y
-G0 X0.09997000 Y0.10010500
+G0 X-5.40003000 Y-0.39989500
 
 ; PeckDrill: dwell
 G4 P2.0
 
 ; PeckDrill: move to start z
 G1 Z0.02000000
-G83 X0.09997 Y0.100105 Z-0.6 R0.02 Q0.05
+G83 X-5.40003 Y-0.399895 Z-0.6 R0.02 Q0.05
+
+; PeckDrill: rapid move to safe z
+G0 Z0.25000000
+
+; End PeckDrill
+; ------------------------------------------------------------
+
+
+; Begin PeckDrill
+; ------------------------------------------------------------
+; layers: ['4-40 tap holes']
+; startZ: 0.02
+; startCond: minX
+; stopZ: -0.6
+; startDwell: 2.0
+; fileName: filter_mount_array.dxf
+; safeZ: 0.25
+; dxfTypes: ['CIRCLE']
+; centerX: -1.4999997
+; centerY: 0.400155
+; stepZ: 0.05
+
+; PeckDrill: rapid move to safe z
+G0 Z0.25000000
+
+; PeckDrill: rapid move to drill x,y
+G0 X-1.49999970 Y0.40015500
+
+; PeckDrill: dwell
+G4 P2.0
+
+; PeckDrill: move to start z
+G1 Z0.02000000
+G83 X-1.4999997 Y0.400155 Z-0.6 R0.02 Q0.05
+
+; PeckDrill: rapid move to safe z
+G0 Z0.25000000
+
+; End PeckDrill
+; ------------------------------------------------------------
+
+
+; Begin PeckDrill
+; ------------------------------------------------------------
+; layers: ['4-40 tap holes']
+; startZ: 0.02
+; startCond: minX
+; stopZ: -0.6
+; startDwell: 2.0
+; fileName: filter_mount_array.dxf
+; safeZ: 0.25
+; dxfTypes: ['CIRCLE']
+; centerX: -1.500037
+; centerY: -0.399884
+; stepZ: 0.05
+
+; PeckDrill: rapid move to safe z
+G0 Z0.25000000
+
+; PeckDrill: rapid move to drill x,y
+G0 X-1.50003700 Y-0.39988400
+
+; PeckDrill: dwell
+G4 P2.0
+
+; PeckDrill: move to start z
+G1 Z0.02000000
+G83 X-1.500037 Y-0.399884 Z-0.6 R0.02 Q0.05
+
+; PeckDrill: rapid move to safe z
+G0 Z0.25000000
+
+; End PeckDrill
+; ------------------------------------------------------------
+
+
+; Begin PeckDrill
+; ------------------------------------------------------------
+; layers: ['4-40 tap holes']
+; startZ: 0.02
+; startCond: minX
+; stopZ: -0.6
+; startDwell: 2.0
+; fileName: filter_mount_array.dxf
+; safeZ: 0.25
+; dxfTypes: ['CIRCLE']
+; centerX: -3.10003
+; centerY: 0.400171
+; stepZ: 0.05
+
+; PeckDrill: rapid move to safe z
+G0 Z0.25000000
+
+; PeckDrill: rapid move to drill x,y
+G0 X-3.10003000 Y0.40017100
+
+; PeckDrill: dwell
+G4 P2.0
+
+; PeckDrill: move to start z
+G1 Z0.02000000
+G83 X-3.10003 Y0.400171 Z-0.6 R0.02 Q0.05
+
+; PeckDrill: rapid move to safe z
+G0 Z0.25000000
+
+; End PeckDrill
+; ------------------------------------------------------------
+
+
+; Begin PeckDrill
+; ------------------------------------------------------------
+; layers: ['4-40 tap holes']
+; startZ: 0.02
+; startCond: minX
+; stopZ: -0.6
+; startDwell: 2.0
+; fileName: filter_mount_array.dxf
+; safeZ: 0.25
+; dxfTypes: ['CIRCLE']
+; centerX: -3.10003
+; centerY: -0.399895
+; stepZ: 0.05
+
+; PeckDrill: rapid move to safe z
+G0 Z0.25000000
+
+; PeckDrill: rapid move to drill x,y
+G0 X-3.10003000 Y-0.39989500
+
+; PeckDrill: dwell
+G4 P2.0
+
+; PeckDrill: move to start z
+G1 Z0.02000000
+G83 X-3.10003 Y-0.399895 Z-0.6 R0.02 Q0.05
+
+; PeckDrill: rapid move to safe z
+G0 Z0.25000000
+
+; End PeckDrill
+; ------------------------------------------------------------
+
+
+; Begin PeckDrill
+; ------------------------------------------------------------
+; layers: ['4-40 tap holes']
+; startZ: 0.02
+; startCond: minX
+; stopZ: -0.6
+; startDwell: 2.0
+; fileName: filter_mount_array.dxf
+; safeZ: 0.25
+; dxfTypes: ['CIRCLE']
+; centerX: 0.8000003
+; centerY: 0.400155
+; stepZ: 0.05
+
+; PeckDrill: rapid move to safe z
+G0 Z0.25000000
+
+; PeckDrill: rapid move to drill x,y
+G0 X0.80000030 Y0.40015500
+
+; PeckDrill: dwell
+G4 P2.0
+
+; PeckDrill: move to start z
+G1 Z0.02000000
+G83 X0.8000003 Y0.400155 Z-0.6 R0.02 Q0.05
+
+; PeckDrill: rapid move to safe z
+G0 Z0.25000000
+
+; End PeckDrill
+; ------------------------------------------------------------
+
+
+; Begin PeckDrill
+; ------------------------------------------------------------
+; layers: ['4-40 tap holes']
+; startZ: 0.02
+; startCond: minX
+; stopZ: -0.6
+; startDwell: 2.0
+; fileName: filter_mount_array.dxf
+; safeZ: 0.25
+; dxfTypes: ['CIRCLE']
+; centerX: 0.799963
+; centerY: -0.399884
+; stepZ: 0.05
+
+; PeckDrill: rapid move to safe z
+G0 Z0.25000000
+
+; PeckDrill: rapid move to drill x,y
+G0 X0.79996300 Y-0.39988400
+
+; PeckDrill: dwell
+G4 P2.0
+
+; PeckDrill: move to start z
+G1 Z0.02000000
+G83 X0.799963 Y-0.399884 Z-0.6 R0.02 Q0.05
+
+; PeckDrill: rapid move to safe z
+G0 Z0.25000000
+
+; End PeckDrill
+; ------------------------------------------------------------
+
+
+; Begin PeckDrill
+; ------------------------------------------------------------
+; layers: ['4-40 tap holes']
+; startZ: 0.02
+; startCond: minX
+; stopZ: -0.6
+; startDwell: 2.0
+; fileName: filter_mount_array.dxf
+; safeZ: 0.25
+; dxfTypes: ['CIRCLE']
+; centerX: -0.80003
+; centerY: 0.400171
+; stepZ: 0.05
+
+; PeckDrill: rapid move to safe z
+G0 Z0.25000000
+
+; PeckDrill: rapid move to drill x,y
+G0 X-0.80003000 Y0.40017100
+
+; PeckDrill: dwell
+G4 P2.0
+
+; PeckDrill: move to start z
+G1 Z0.02000000
+G83 X-0.80003 Y0.400171 Z-0.6 R0.02 Q0.05
+
+; PeckDrill: rapid move to safe z
+G0 Z0.25000000
+
+; End PeckDrill
+; ------------------------------------------------------------
+
+
+; Begin PeckDrill
+; ------------------------------------------------------------
+; layers: ['4-40 tap holes']
+; startZ: 0.02
+; startCond: minX
+; stopZ: -0.6
+; startDwell: 2.0
+; fileName: filter_mount_array.dxf
+; safeZ: 0.25
+; dxfTypes: ['CIRCLE']
+; centerX: -0.80003
+; centerY: -0.399895
+; stepZ: 0.05
+
+; PeckDrill: rapid move to safe z
+G0 Z0.25000000
+
+; PeckDrill: rapid move to drill x,y
+G0 X-0.80003000 Y-0.39989500
+
+; PeckDrill: dwell
+G4 P2.0
+
+; PeckDrill: move to start z
+G1 Z0.02000000
+G83 X-0.80003 Y-0.399895 Z-0.6 R0.02 Q0.05
+
+; PeckDrill: rapid move to safe z
+G0 Z0.25000000
+
+; End PeckDrill
+; ------------------------------------------------------------
+
+
+; Begin PeckDrill
+; ------------------------------------------------------------
+; layers: ['4-40 tap holes']
+; startZ: 0.02
+; startCond: minX
+; stopZ: -0.6
+; startDwell: 2.0
+; fileName: filter_mount_array.dxf
+; safeZ: 0.25
+; dxfTypes: ['CIRCLE']
+; centerX: 3.1000003
+; centerY: 0.400155
+; stepZ: 0.05
+
+; PeckDrill: rapid move to safe z
+G0 Z0.25000000
+
+; PeckDrill: rapid move to drill x,y
+G0 X3.10000030 Y0.40015500
+
+; PeckDrill: dwell
+G4 P2.0
+
+; PeckDrill: move to start z
+G1 Z0.02000000
+G83 X3.1000003 Y0.400155 Z-0.6 R0.02 Q0.05
+
+; PeckDrill: rapid move to safe z
+G0 Z0.25000000
+
+; End PeckDrill
+; ------------------------------------------------------------
+
+
+; Begin PeckDrill
+; ------------------------------------------------------------
+; layers: ['4-40 tap holes']
+; startZ: 0.02
+; startCond: minX
+; stopZ: -0.6
+; startDwell: 2.0
+; fileName: filter_mount_array.dxf
+; safeZ: 0.25
+; dxfTypes: ['CIRCLE']
+; centerX: 3.099963
+; centerY: -0.399884
+; stepZ: 0.05
+
+; PeckDrill: rapid move to safe z
+G0 Z0.25000000
+
+; PeckDrill: rapid move to drill x,y
+G0 X3.09996300 Y-0.39988400
+
+; PeckDrill: dwell
+G4 P2.0
+
+; PeckDrill: move to start z
+G1 Z0.02000000
+G83 X3.099963 Y-0.399884 Z-0.6 R0.02 Q0.05
+
+; PeckDrill: rapid move to safe z
+G0 Z0.25000000
+
+; End PeckDrill
+; ------------------------------------------------------------
+
+
+; Begin PeckDrill
+; ------------------------------------------------------------
+; layers: ['4-40 tap holes']
+; startZ: 0.02
+; startCond: minX
+; stopZ: -0.6
+; startDwell: 2.0
+; fileName: filter_mount_array.dxf
+; safeZ: 0.25
+; dxfTypes: ['CIRCLE']
+; centerX: 1.49997
+; centerY: 0.400171
+; stepZ: 0.05
+
+; PeckDrill: rapid move to safe z
+G0 Z0.25000000
+
+; PeckDrill: rapid move to drill x,y
+G0 X1.49997000 Y0.40017100
+
+; PeckDrill: dwell
+G4 P2.0
+
+; PeckDrill: move to start z
+G1 Z0.02000000
+G83 X1.49997 Y0.400171 Z-0.6 R0.02 Q0.05
+
+; PeckDrill: rapid move to safe z
+G0 Z0.25000000
+
+; End PeckDrill
+; ------------------------------------------------------------
+
+
+; Begin PeckDrill
+; ------------------------------------------------------------
+; layers: ['4-40 tap holes']
+; startZ: 0.02
+; startCond: minX
+; stopZ: -0.6
+; startDwell: 2.0
+; fileName: filter_mount_array.dxf
+; safeZ: 0.25
+; dxfTypes: ['CIRCLE']
+; centerX: 1.49997
+; centerY: -0.399895
+; stepZ: 0.05
+
+; PeckDrill: rapid move to safe z
+G0 Z0.25000000
+
+; PeckDrill: rapid move to drill x,y
+G0 X1.49997000 Y-0.39989500
+
+; PeckDrill: dwell
+G4 P2.0
+
+; PeckDrill: move to start z
+G1 Z0.02000000
+G83 X1.49997 Y-0.399895 Z-0.6 R0.02 Q0.05
+
+; PeckDrill: rapid move to safe z
+G0 Z0.25000000
+
+; End PeckDrill
+; ------------------------------------------------------------
+
+
+; Begin PeckDrill
+; ------------------------------------------------------------
+; layers: ['4-40 tap holes']
+; startZ: 0.02
+; startCond: minX
+; stopZ: -0.6
+; startDwell: 2.0
+; fileName: filter_mount_array.dxf
+; safeZ: 0.25
+; dxfTypes: ['CIRCLE']
+; centerX: 5.4000003
+; centerY: 0.400155
+; stepZ: 0.05
+
+; PeckDrill: rapid move to safe z
+G0 Z0.25000000
+
+; PeckDrill: rapid move to drill x,y
+G0 X5.40000030 Y0.40015500
+
+; PeckDrill: dwell
+G4 P2.0
+
+; PeckDrill: move to start z
+G1 Z0.02000000
+G83 X5.4000003 Y0.400155 Z-0.6 R0.02 Q0.05
+
+; PeckDrill: rapid move to safe z
+G0 Z0.25000000
+
+; End PeckDrill
+; ------------------------------------------------------------
+
+
+; Begin PeckDrill
+; ------------------------------------------------------------
+; layers: ['4-40 tap holes']
+; startZ: 0.02
+; startCond: minX
+; stopZ: -0.6
+; startDwell: 2.0
+; fileName: filter_mount_array.dxf
+; safeZ: 0.25
+; dxfTypes: ['CIRCLE']
+; centerX: 5.399963
+; centerY: -0.399884
+; stepZ: 0.05
+
+; PeckDrill: rapid move to safe z
+G0 Z0.25000000
+
+; PeckDrill: rapid move to drill x,y
+G0 X5.39996300 Y-0.39988400
+
+; PeckDrill: dwell
+G4 P2.0
+
+; PeckDrill: move to start z
+G1 Z0.02000000
+G83 X5.399963 Y-0.399884 Z-0.6 R0.02 Q0.05
+
+; PeckDrill: rapid move to safe z
+G0 Z0.25000000
+
+; End PeckDrill
+; ------------------------------------------------------------
+
+
+; Begin PeckDrill
+; ------------------------------------------------------------
+; layers: ['4-40 tap holes']
+; startZ: 0.02
+; startCond: minX
+; stopZ: -0.6
+; startDwell: 2.0
+; fileName: filter_mount_array.dxf
+; safeZ: 0.25
+; dxfTypes: ['CIRCLE']
+; centerX: 3.79997
+; centerY: 0.400171
+; stepZ: 0.05
+
+; PeckDrill: rapid move to safe z
+G0 Z0.25000000
+
+; PeckDrill: rapid move to drill x,y
+G0 X3.79997000 Y0.40017100
+
+; PeckDrill: dwell
+G4 P2.0
+
+; PeckDrill: move to start z
+G1 Z0.02000000
+G83 X3.79997 Y0.400171 Z-0.6 R0.02 Q0.05
+
+; PeckDrill: rapid move to safe z
+G0 Z0.25000000
+
+; End PeckDrill
+; ------------------------------------------------------------
+
+
+; Begin PeckDrill
+; ------------------------------------------------------------
+; layers: ['4-40 tap holes']
+; startZ: 0.02
+; startCond: minX
+; stopZ: -0.6
+; startDwell: 2.0
+; fileName: filter_mount_array.dxf
+; safeZ: 0.25
+; dxfTypes: ['CIRCLE']
+; centerX: 3.79997
+; centerY: -0.399895
+; stepZ: 0.05
+
+; PeckDrill: rapid move to safe z
+G0 Z0.25000000
+
+; PeckDrill: rapid move to drill x,y
+G0 X3.79997000 Y-0.39989500
+
+; PeckDrill: dwell
+G4 P2.0
+
+; PeckDrill: move to start z
+G1 Z0.02000000
+G83 X3.79997 Y-0.399895 Z-0.6 R0.02 Q0.05
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.25000000
