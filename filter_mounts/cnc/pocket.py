@@ -20,7 +20,7 @@ prog.add(gcode_cmd.FeedRate(feedrate))
 param = {
         'fileName'       : fileName,
         'layers'         : ['resistor pocket'],
-        'components'     : False,
+        'components'     : True,
         'depth'          : 0.25,
         'startZ'         : 0.0,
         'safeZ'          : safeZ,
@@ -39,7 +39,7 @@ prog.add(pocket)
 param = {
         'fileName'       : fileName,
         'layers'         : ['connector pocket'],
-        'components'     : False,
+        'components'     : True,
         'depth'          : 0.6,
         'startZ'         : 0.0,
         'safeZ'          : safeZ,
