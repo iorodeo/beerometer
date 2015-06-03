@@ -13,8 +13,6 @@ from py2gcode import gcode_cmd
 from py2gcode import cnc_dxf
 
 
-
-
 feedrate = 24.0
 
 prog = gcode_cmd.GCodeProg()
